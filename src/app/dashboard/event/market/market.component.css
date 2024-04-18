@@ -1,0 +1,22 @@
+.custom-button {
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    color: black;
+    box-shadow: none;
+    border: 1px solid rgb(231, 231, 231);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.custom-button:active {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.custom-button div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+}
